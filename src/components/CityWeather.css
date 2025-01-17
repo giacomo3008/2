@@ -1,0 +1,13 @@
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(221, 222, 222, 0.405);
+}
+
+button {
+    background-color: rgba(240, 240, 240, 0.641);
+}
